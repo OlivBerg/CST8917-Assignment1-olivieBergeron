@@ -26,7 +26,7 @@ The central thesis of this paper is to articulate how the first generation of se
 
   - As more functions run on a single VM, bandwidth per function drops further (e.g., 28.7 Mbps across 20 functions (Hellerstein et al., 2019)).
 
-- FaaS functions are not network-addressable — they cannot communicate directly with one another. (Hellerstein et al., 2019)
+- FaaS functions are not network-addressable meaning they cannot communicate directly with one another. (Hellerstein et al., 2019)
 
 - All inter-function communication must go through slow, expensive cloud storage services. (Hellerstein et al., 2019)
 
